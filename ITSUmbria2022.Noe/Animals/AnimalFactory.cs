@@ -2,6 +2,8 @@
 {
     public class AnimalFactory : IAnimalFactory
     {
+        public static IAnimalFactory Instance { get; } = new AnimalFactory();
+        private AnimalFactory() { }
         public Animal Census(string name, AnimalType type)
         {
             switch (type)
