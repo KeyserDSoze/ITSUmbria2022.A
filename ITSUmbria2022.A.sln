@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSUmbria2022.A", "ITSUmbria2022.A\ITSUmbria2022.A.csproj", "{5C2584D3-E412-42AC-BAD7-2601EAEFDA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSUmbria2022.A.Library", "ITSUmbria2022.A.Library\ITSUmbria2022.A.Library.csproj", "{0744F991-E635-455F-803B-C96504DE13ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C2584D3-E412-42AC-BAD7-2601EAEFDA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2584D3-E412-42AC-BAD7-2601EAEFDA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2584D3-E412-42AC-BAD7-2601EAEFDA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2584D3-E412-42AC-BAD7-2601EAEFDA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0744F991-E635-455F-803B-C96504DE13ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0744F991-E635-455F-803B-C96504DE13ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0744F991-E635-455F-803B-C96504DE13ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0744F991-E635-455F-803B-C96504DE13ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFF3720-567A-44C8-BF6C-684019AD8FCE}
+	EndGlobalSection
+EndGlobal
