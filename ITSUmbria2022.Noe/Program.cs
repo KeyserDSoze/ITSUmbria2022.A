@@ -2,14 +2,13 @@
 using ITSUmbria2022.Noe.Animals;
 using System.Text;
 
-//DateTime now = DateTime.UtcNow;
-//string ciao = "ciao";
-//StringBuilder builder = new();
-//for (int i = 0; i < 1_000_000; i++)
-//    builder.Append(ciao);
+DateTime now = DateTime.UtcNow;
+string ciao = "ciao";
+StringBuilder builder = new();
+for (int i = 0; i < 1_000_000; i++)
+    builder.Append(ciao);
 
-//Console.WriteLine((DateTime.UtcNow - now).TotalSeconds);
-
+Console.WriteLine((DateTime.UtcNow - now).TotalSeconds);
 
 
 List<Animal> animals = new List<Animal>();
