@@ -4,16 +4,34 @@
     {
         public int Seed { get; set; }
         public int Value { get; set; }
+        public int Figure { get; set; }
     }
-    public class Class1
+    public class BlackJackEngine
     {
         public List<Card> Cards { get; set; } = new();
-
+        public void CreateDeckAndShuffleIt()
+        {
+            for (int i = 0; i < 4; i++)
+                for (int j = 1; j <= 13; j++)
+                    Cards.Add(new Card
+                    {
+                        Seed = i,
+                        Value = j == 1 ? 11 : (j > 10 ? 10 : j),
+                        Figure = j,
+                    });
+            Cards = Cards.OrderBy(card =>
+            {
+                var randomValue = Guid.NewGuid();
+                return randomValue.ToString();
+            }).ToList();
+        }
         public void DoSomething()
         {
+
             var aces = Cards.Where(card => card.Value == 1);
             var aces2 = Where(card => card.Value == 1);
             var aces3 = Where(Check);
+
             Cards.GroupBy(x => x.Value);
             if (Cards.Sum(x => x.Value) > 21
                 && Cards.Any(x => x.Value == 11))
