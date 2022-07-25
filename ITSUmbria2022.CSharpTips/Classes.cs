@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ITSUmbria2022.CSharpTips
+﻿namespace ITSUmbria2022.CSharpTips
 {
     public class Car
     {
