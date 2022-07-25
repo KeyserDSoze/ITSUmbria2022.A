@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSUmbria2022.A.Library", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSUmbria2022.Noe", "ITSUmbria2022.Noe\ITSUmbria2022.Noe.csproj", "{9D89C1DD-99C9-4DF3-BE7A-79B2E10AEF87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{8BA023A7-B708-4074-ADE7-46B018482590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{8BA023A7-B708-4074-ADE7-46B018482590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSUmbria.BlackJack", "ITSUmbria.BlackJack\ITSUmbria.BlackJack.csproj", "{E82111CB-942A-4A7C-BE39-D005EEF704A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSUmbria.BlackJack", "ITSUmbria.BlackJack\ITSUmbria.BlackJack.csproj", "{E82111CB-942A-4A7C-BE39-D005EEF704A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSUmbria.BlackJac.App", "ITSUmbria.BlackJac.App\ITSUmbria.BlackJac.App.csproj", "{7843FDEA-B99A-46ED-AF4F-4192598992F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITSUmbria.BlackJac.App", "ITSUmbria.BlackJac.App\ITSUmbria.BlackJac.App.csproj", "{7843FDEA-B99A-46ED-AF4F-4192598992F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSUmbria2022.CSharpTips", "ITSUmbria2022.CSharpTips\ITSUmbria2022.CSharpTips.csproj", "{22AEFEED-7BBF-4844-84FE-FB92B80F4CA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7843FDEA-B99A-46ED-AF4F-4192598992F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7843FDEA-B99A-46ED-AF4F-4192598992F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7843FDEA-B99A-46ED-AF4F-4192598992F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AEFEED-7BBF-4844-84FE-FB92B80F4CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AEFEED-7BBF-4844-84FE-FB92B80F4CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AEFEED-7BBF-4844-84FE-FB92B80F4CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AEFEED-7BBF-4844-84FE-FB92B80F4CA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
